@@ -1,7 +1,7 @@
 .navigation-bar {
     padding-left: 1%;
     border-bottom: 2px solid chocolate;
-    font-size: 25px;
+    font-size: 200%;
 }
 
 .content {
@@ -36,8 +36,30 @@ img {
 
 p {
     padding-left: 10%;
+    font-size: 100%
 }
 
 html{
     background: white;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        margin-left: 0;
+        padding-bottom: 0;
+        background: white;
+        border-left:none;
+        border-top: 2px solid chocolate;
+    }
+
+    .content {
+        float: none;
+        padding-left: 20%;
+    }
+
+    .img {
+        width: 600px;
+    }
 }
