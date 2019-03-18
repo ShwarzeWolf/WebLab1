@@ -1,0 +1,43 @@
+.navigation-bar {
+    padding-left: 1%;
+    border-bottom: 2px solid chocolate;
+    font-size: 25px;
+}
+
+.content {
+    float: left;
+    width: 60%;
+}
+
+.menu {
+    margin-left: 60%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    background: white;
+    border-left: 2px solid coral;
+}
+
+.footer {
+    clear: both;
+    padding-left: 5%;
+    background: black;
+    color: white;
+}
+
+.post {
+    padding-left: 10%;
+    margin-bottom: 5%;
+}
+
+img {
+    display: block;
+    width: 60%;
+}
+
+p {
+    padding-left: 10%;
+}
+
+html {
+    background: ivory;
+}
