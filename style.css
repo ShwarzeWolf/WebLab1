@@ -63,3 +63,19 @@ html{
         width: 600px;
     }
 }
+
+@media (max-width : 525px) {
+    p {
+        font-size : 10px;
+    }
+
+    ul {
+        font-size: 10px;
+    }
+}
+
+@media (max-width : 350px) {
+    p {font-size : 6px;}
+
+    ul {font-size: 6px;}
+}
